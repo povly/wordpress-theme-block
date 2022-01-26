@@ -1,0 +1,7 @@
+<?php
+return 			array(
+	'title'       => 'Мой паттерн',
+	'description' => 'Этот паттерн позволяет вам вставить несколько блоков и кнопку с предопределённым текстом.',
+	'content'     => "<!-- wp:group {\"align\":\"full\",\"backgroundColor\":\"green\"} -->\n<div class=\"wp-block-group alignfull has-black-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer -->\n<div style=\"height:100px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading -->\n<h2>Паттерны Gutenberg</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Это пример использования паттерна в Gutenberg. Сначала мы настраиваем блоки в редакторе.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"textColor\":\"white\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-white-color has-text-color\">Использовать паттерны</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons -->\n\n<!-- wp:spacer -->\n<div style=\"height:100px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->",
+	'categories'  => array( 'hero' ),
+);
